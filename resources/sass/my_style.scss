@@ -1,0 +1,104 @@
+/* start navabr styling */
+.navbar {
+    background-color: lightcyan;
+}
+.navbar-brand {
+    margin-right: 30px;
+
+}
+.nav-item {
+    padding: 7px;
+    margin-right: 3px;
+}
+.nav-item:hover {
+    background-color: floralwhite;
+ }
+.dropdown {
+    margin-right: 50px;
+}
+.dropdown-menu {
+    min-width: 150px;
+    background-color: lightcyan;
+}
+.dropdown-item {
+    text-align: center;
+}
+.dropdown-item:hover {
+    background-color: floralwhite;
+    padding: 8px;
+}
+/* end navbar styling */
+
+/* start auth form styling */
+.needs-validation {
+    -webkit-box-shadow: 9px 10px 5px 0px rgba(0, 0, 0, 0.25);
+    -moz-box-shadow: 9px 10px 5px 0px rgba(0, 0, 0, 0.25);
+    box-shadow: 9px 10px 5px 0px rgba(0, 0, 0, 0.25);
+    max-width: 800px;
+    border: 1px solid rgba(0, 0, 0, .15);
+    border-radius: .25rem;
+    padding: 50px;
+}
+
+input {
+    border-radius: 0px !important;
+    border: none !important;
+    border-bottom: 1px solid #ced4da !important;
+    margin-bottom: 40px;
+}
+.btn.auth {
+    background-color: cyan;
+    color: black;
+    float: right;
+    margin-bottom: 30px;
+}
+.btn.auth:hover {
+    background-color:mediumaquamarine;
+    color: white;
+}
+/* end auth form styling */
+
+
+/* Categories Part Style */
+.card.bg-dark.text-white {
+    border: none;
+    border-radius: 10px;
+    -webkit-box-shadow: 9px 10px 5px 0px rgba(0, 0, 0, 0.25);
+    -moz-box-shadow: 9px 10px 5px 0px rgba(0, 0, 0, 0.25);
+    box-shadow: 9px 10px 5px 0px rgba(0, 0, 0, 0.25);
+}
+.card.bg-dark.text-white:hover {
+    margin: 2px;
+}
+.card-img.Categories {
+    /* width: 100%;
+    height: 15rem;
+    object-fit: cover; */
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 300px;
+}
+
+/* Items Part Style */
+.card-img-top {
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 250px;
+}
+
+.embed-responsive .card-img-top {
+    object-fit: cover;
+}
+
+.card-title.categories {
+    background-color: seashell;
+    color: darkblue;
+    padding: 3px;
+    border-radius: 18px;
+    text-align: center;
+    font-size: large;
+}
